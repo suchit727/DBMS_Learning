@@ -562,4 +562,4 @@ Codd’s model gave DBMS theory a **clean mathematical spine**; SQL engineering 
 
 ---
 
-*Prev: [Chapter 03 — DBMS architecture](./chapter-03-dbms-architecture.md) · Next: Chapter 05 (ER modeling — suggested)*
+*Prev: [Chapter 03 — DBMS architecture](./chapter-03-dbms-architecture.md) · Next: [Chapter 05 — ER modeling](../Data_modeling/chapter-05-er-modeling-university.md)*
