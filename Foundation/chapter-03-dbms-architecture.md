@@ -39,6 +39,22 @@ Before the three levels, fix two terms used everywhere in exams:
 
 **Three levels each have their own schema.** The **mapping** between levels is maintained by the DBMS catalog, not by each application.
 
+In MySQL:
+schema ≈ database (often treated similarly)
+In PostgreSQL and Oracle Database:
+one database can contain multiple schemas
+
+A schema is a logical grouping/namespace inside a database.
+
+PatientPayDB
+   ├── billing schema
+   │      ├── bills table
+   │      └── payments table
+   │
+   ├── patient schema
+   │      ├── patient_details table
+   │      └── insurance table
+
 ---
 
 ## Part B — ANSI/SPARC three-level architecture
